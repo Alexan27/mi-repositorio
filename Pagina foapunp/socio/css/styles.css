@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+/* Tablas */
+.table th {
+    background-color: #198754; /* Verde de Bootstrap */
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(25, 135, 84, 0.1);
+}
+
+/* Badges */
+.badge {
+    font-size: 0.9em;
+    padding: 0.5em 0.75em;
+}
+
+/* Formularios */
+.form-control, .form-select {
+    padding: 0.5rem 0.75rem;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+}
+
+/* Colores específicos para socio */
+.bg-success-light {
+    background-color: rgba(25, 135, 84, 0.1);
+}
+
+.text-success-dark {
+    color: #0f5132;
+}
